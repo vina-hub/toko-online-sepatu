@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Sepatu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Toko Sepatu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profil">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#layanan">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeri">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="beranda" class="p-5 text-center bg-primary text-white">
+    <div class="container">
+      <h1>Selamat Datang di Toko Sepatu</h1>
+      <p>Temukan berbagai jenis sepatu dengan kualitas terbaik hanya di sini!</p>
+    </div>
+  </section>
+
+  <!-- Profil -->
+  <section id="profil" class="p-5 bg-light">
+    <div class="container">
+      <h2>Profil Toko</h2>
+      <p>Toko Sepatu kami sudah beroperasi sejak tahun 2005, menyediakan sepatu berkualitas tinggi dari berbagai merek ternama. Kami selalu mengutamakan kepuasan pelanggan dan pelayanan yang ramah.</p>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="p-5">
+    <div class="container">
+      <h2>Layanan Kami</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Penjualan Sepatu</h4>
+          <p>Kami menyediakan berbagai jenis sepatu untuk pria, wanita, dan anak-anak dengan berbagai merek terkenal.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Pengiriman Cepat</h4>
+          <p>Pesanan Anda akan kami kirimkan dengan cepat dan aman sampai ke alamat yang dituju.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Garansi Kualitas</h4>
+          <p>Setiap sepatu yang kami jual dilengkapi dengan garansi kualitas sehingga Anda tidak perlu khawatir dengan produk yang Anda beli.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="p-5 bg-light">
+    <div class="container">
+      <h2>Galeri Sepatu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/images/sepatu1.jpg" class="img-fluid" alt="Sepatu 1">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/sepatu2.jpg" class="img-fluid" alt="Sepatu 2">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/sepatu3.jpg" class="img-fluid" alt="Sepatu 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="p-5">
+    <div class="container">
+      <h2>Kontak Kami</h2>
+      <form id="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Pesan</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+      <div id="message-success" class="text-success mt-3" style="display: none;">
+        Terima kasih, pesan Anda telah dikirim!
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 Toko Sepatu | Semua Hak Dilindungi</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

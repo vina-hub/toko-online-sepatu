@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #beranda {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  #kontak form input, #kontak form textarea {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #message-success {
+    font-weight: bold;
+  }
+  
